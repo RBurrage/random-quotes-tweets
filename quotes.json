@@ -1,0 +1,22 @@
+var quotes = [
+        {
+            quote: "Keep your eyes open to your mercies. The man who forgets to be thankful has fallen asleep in life.",
+            author: "Robert Louis Stevenson"
+        },
+        {
+            quote: "Some people are always grumbling because roses have thorns; I am thankful that thorns have roses.",
+            author: "Alphonse Karr"
+        },
+        {
+            quote: "Gratitude can transform common days into thanksgivings, turn routine jobs into joy, and change ordinary opportunities into blessings.",
+            author: "William Arthur Ward"
+        },
+        {
+            quote: "Never let the things you WANT make you forget the things you HAVE.",
+            author: "Unknown"
+        },
+        {
+            quote: "Things turn out best for people who make the best of the way things turn out.",
+            author: "John Wooden"
+        }
+    ]

@@ -1,0 +1,90 @@
+html {
+background: url('../img/bg.gif')no-repeat center center #fff;    
+color: #007399;
+background-position: 50% 40%;
+overflow: hidden;
+}
+.page-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.app-wrap {
+    position: relative;
+}
+.app-wrap h2 {
+    position: absolute;
+    top: -35px;
+    font-size: 30px;
+    background-color: #007399;
+    color: #fff;
+    padding: 8px;
+    height: 20px;
+    border-top-right-radius: 10px;
+}
+.app-wrap h2, #quote, .app-wrap h2, #author {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+    font-weight: 500;
+}
+.quote-wrap {
+    height: 200px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 5px 5px 10px #999;
+    padding: 50px;
+    background: url(../img/left-quotes.png)no-repeat #c7e4e9;
+    background-size: 30%;
+    background-position: 5% 20%;
+}
+
+#quote {
+    line-height: 34px;
+    margin-bottom:50px;
+}
+#author {
+    text-align: right;
+}
+#author::before{
+    content: "- "
+}
+.clicks {
+    align-items: flex-start;
+}
+.tweet {
+    background-color: #fff;
+    border:1px solid #ccc;
+    position:absolute;
+    bottom: -20px;
+    right: 75px;
+    box-shadow: 3px 3px 5px #ccc;
+}
+button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding:5px;
+    margin:0;
+	border-radius: 50%;
+	width: 51px;
+	height: 51px; 
+    position: absolute;
+    right:15px;
+    bottom:-21px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #007399;
+    box-shadow: 3px 3px 5px #ccc;
+}
+button:focus {
+    outline:0;
+}
+button:hover, .tweet:hover {
+    background-color: #eee;
+}
+button:active, .tweet:active {
+    background-color: #ccc;
+}
