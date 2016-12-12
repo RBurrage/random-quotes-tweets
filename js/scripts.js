@@ -1,5 +1,4 @@
 $(document).ready(function(){ 
-    changeQuote();
     
     //generate random quote
     function changeQuote(){
@@ -13,10 +12,15 @@ $(document).ready(function(){
         changeQuote(); 
     });
     
-});
-
-        
     //tweet random quote
     $('.share-on-twitter').click(function(){
-        $(this).attr("href", 'https://twitter.com/intent/tweet?text=' + randomQuote);
-    });   
+        $(this).attr('href', 'https://twitter.com/intent/tweet?text=' + $('#quote').text());
+    }); 
+    
+changeQuote();  
+});
+
+
+      
+
+  
