@@ -17,7 +17,6 @@ $(document).ready(function(){
         $(this).attr('href', 'https://twitter.com/intent/tweet?text=' + $('#quote').text());
     }); 
     
-changeQuote();  
 });
 
 
