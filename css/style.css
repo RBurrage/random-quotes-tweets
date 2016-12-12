@@ -58,7 +58,7 @@ overflow: hidden;
 button, .tweet {
     position:absolute;
 }
-.tweet {
+a .tweet {
     right:15px;
     bottom:-21px;
 }
