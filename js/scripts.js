@@ -14,7 +14,7 @@ $(document).ready(function(){
     
     //tweet random quote
     $('.share-on-twitter').click(function(){
-        $(this).attr('href', 'https://twitter.com/intent/tweet?text=' + $('#quote').text());
+        $(this).attr('href', 'https://twitter.com/intent/tweet?text=' + $('#quote').text() + '%0A' + '-- ' + $('#author').text());
     }); 
     
 });
