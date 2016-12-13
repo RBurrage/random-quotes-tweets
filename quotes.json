@@ -18,5 +18,13 @@ var quotes = [
         {
             quote: "Things turn out best for people who make the best of the way things turn out.",
             author: "John Wooden"
+        },
+        {
+            quote: "Don't cry because it's over, smile because it happened.",
+            author: "Dr. Seuss"
+        },
+        {
+            quote: "Be the change that you wish to see in the world.",
+            author: "Mahatma Gandhi"
         }
     ]
